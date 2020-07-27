@@ -1,0 +1,78 @@
+.risk-info-main{
+    padding: 10px 20px 10px 20px;
+    background-color: #ffffff;
+    .risk-info-title{
+        color: #515a6e;
+        .el-tag{
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+    }
+    .view-panel{
+        margin-top: 20px;
+        .panel-tab{
+            height: 50px;
+            border-bottom: 4px solid #333;
+            p{
+                height: 50px;
+                font-size: 20px;
+                line-height: 50px;
+                display: inline-block;
+            }
+            .el-button{
+                float: right;
+                margin-top: 5px;
+            }
+        }
+        .panel-block{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px dashed #cccccc;
+            .info-item{
+                height: 50px;
+                line-height: 50px;
+                font-size: 16px;
+                .label{
+                    color: #7f7f7f;
+                    display: inline-block;
+                    width: 140px;
+                }
+            }
+        }
+        .message-card{
+            background-color: #f8f8f8;
+            margin-top: 10px;
+            padding: 10px;
+            padding-bottom: 0;
+            .card-title{
+                height: 35px;
+                line-height: 35px;
+                span:nth-of-type(1){
+                    font-size: 15px;
+                    font-weight: bold;
+                }
+            }
+            .card-text{
+                position: relative;
+                span:nth-of-type(1){
+                    display: inline-block;
+                    text-align: justify;
+                    max-height: 50px;
+                    line-height: 25px;
+                }
+                .fold{
+                    overflow: hidden;
+                }
+                .expand{
+                    display: block;
+                    text-align: center;
+                    line-height: 30px;
+                    height: 30px;
+                    background-color: #f8f8f8;
+                    cursor: pointer;
+                    color: #409EFF;
+                }
+            }
+        }
+    }
+}

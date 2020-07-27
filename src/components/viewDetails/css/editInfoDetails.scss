@@ -1,0 +1,101 @@
+.view-details {
+  padding: 0 20px;
+  $fFamily: "微软雅黑";
+  font-family: $fFamily;
+
+  .info-head {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+
+    .head-tit {
+      //   margin-right: 15px;
+      margin-right: 10%;
+      font: {
+        size: 20px;
+        weight: bold;
+      }
+    }
+    .head-line {
+      //   margin-left: 10px;
+      margin-right: 5%;
+      font: {
+        size: 13px;
+        weight: bold;
+      }
+    }
+    .head-val {
+      font: {
+        size: 13px;
+        weight: 400;
+      }
+    }
+    .color-box {
+      display: inline-block;
+      margin-bottom: 5px;
+      vertical-align: middle;
+      width: 62px;
+      height: 24px;
+      border-radius: 5px;
+
+      &.red {
+        background-color: $tag-red;
+      }
+      &.yellow {
+        background-color: $tag-yellow;
+      }
+      &.green {
+        background-color: $tag-green;
+      }
+    }
+  }
+
+  .info-main {
+    margin-top: 15px;
+    .info-table .lab {
+      // width: 180px;
+      text-align: left;
+    }
+    .infoForm {
+      padding: 10px 20px;
+      border: 1px solid #ddd;
+
+      .item-box {
+        padding: 0 30px;
+        width: 50%;
+        height: 102px;
+      }
+      /deep/ .jzd {
+        .el-form-item {
+          width: 100%;
+
+          .el-form-item__content {
+            float: left;
+            width: 100%;
+
+            .el-input--small .el-input__inner {
+              height: 40px;
+            }
+          }
+        }
+      }
+      /deep/ .cor-red {
+        .el-input__inner {
+          color: red !important;
+        }
+      }
+    }
+    .change-record {
+      margin-top: 30px;
+      .title {
+        font: {
+          size: 16px;
+          weight: bold;
+        }
+      }
+    }
+  }
+}
+
+/deep/.el-select {
+  width: 100%;
+}

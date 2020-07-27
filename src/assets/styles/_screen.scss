@@ -1,0 +1,37 @@
+html {
+    font-family: 'Microsoft YaHei';
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+body,html{
+    height: 100%;
+}
+/* 清除浮动 */
+.clearfix {
+    display: block;
+    zoom: 1;
+}
+  
+.clearfix:after {
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.select-option{
+    background: #003572!important;
+    border-color: #003572;
+    .popper__arrow::after{
+        border-bottom-color:#003572!important;
+    }
+    .el-select-dropdown__item.hover{
+        background: #409EFF;
+    }
+}

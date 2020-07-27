@@ -1,0 +1,12 @@
+// 已在vue.config中注入全局scss环境，不需要单独引入
+$theme-color: #137ddf;
+$lighten-blue: #66b1ff;
+$grey-bg: #ecf0f6;
+$assets: '~@/assets/';
+
+// 红牌颜色
+$tag-red: #ec6941;
+// 黄牌颜色
+$tag-yellow: #ffba00;
+// 绿牌颜色
+$tag-green: #5cb83d;
