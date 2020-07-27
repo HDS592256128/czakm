@@ -17,7 +17,7 @@
     "crypto-js": "^4.0.0",
     "echarts": "^4.6.0",
     "element-ui": "^2.13.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jsplumb": "^2.11.2",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
